@@ -1,4 +1,4 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,8 +6,9 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccess.Abstract
+namespace Core.DataAccess
 {
+    //Core katmanı diğer sınıfları referans almaz
     //T sınırlandırmak =>generic constraint 
     //class : referans tip olabilir
     //Ientity :  olabilir veya onu implemente eden bir  nesne olabilir

@@ -1,0 +1,12 @@
+C:\Users\asena\OneDrive\Masaüstü\Github\Kamp\FinalProject\Core\bin\Debug\net5.0\Core.deps.json
+C:\Users\asena\OneDrive\Masaüstü\Github\Kamp\FinalProject\Core\bin\Debug\net5.0\Core.dll
+C:\Users\asena\OneDrive\Masaüstü\Github\Kamp\FinalProject\Core\bin\Debug\net5.0\ref\Core.dll
+C:\Users\asena\OneDrive\Masaüstü\Github\Kamp\FinalProject\Core\bin\Debug\net5.0\Core.pdb
+C:\Users\asena\OneDrive\Masaüstü\Github\Kamp\FinalProject\Core\obj\Debug\net5.0\Core.csprojAssemblyReference.cache
+C:\Users\asena\OneDrive\Masaüstü\Github\Kamp\FinalProject\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asena\OneDrive\Masaüstü\Github\Kamp\FinalProject\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+C:\Users\asena\OneDrive\Masaüstü\Github\Kamp\FinalProject\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+C:\Users\asena\OneDrive\Masaüstü\Github\Kamp\FinalProject\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\asena\OneDrive\Masaüstü\Github\Kamp\FinalProject\Core\obj\Debug\net5.0\Core.dll
+C:\Users\asena\OneDrive\Masaüstü\Github\Kamp\FinalProject\Core\obj\Debug\net5.0\ref\Core.dll
+C:\Users\asena\OneDrive\Masaüstü\Github\Kamp\FinalProject\Core\obj\Debug\net5.0\Core.pdb
