@@ -1,11 +1,13 @@
 ﻿using Business.Abstract;
 using Business.Constans;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using Core.Utilities.Results.Concrete;
 using Core.Utilities.Results.Concrete.DataResult;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,22 +16,20 @@ using System.Threading.Tasks;
 
 namespace Business.Concrete
 {
-    public class ProductManager: IProductService
+    public class ProductDal: IProductService
     {
         //Bir iş Sınıfı başka sınıfları newlemez
         IProductDal _productDal;
 
-        public ProductManager(IProductDal productDal)
+        public ProductDal(IProductDal productDal)
         {
             _productDal = productDal;
         }
 
         public IResult Add(Product product)
         {
-            if (product.ProductName.Length < 2)
-            {
-                return new ErrorResult(Messages.ProductAdded);
-            }
+        
+            ValidationTool.Validate(new ProductValidatior(),product);
             _productDal.Add(product);
             return new Result(true,Messages.ProductAdded);
         }

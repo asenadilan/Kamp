@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TNFLz9j6lm1J1cKaocroeTu4beGwWgSjpeYScDAIymqEu62oXPGaQmpypnZhiNbtbK8uuyVE/xtYU7mcjVTEAg==",
+  "dgSpecHash": "hTtMnfvorhesk7vvvt1nOsVGXix6Hwvk+JNRyS+QoPl5OYqZD5M4GvaN/VWh4kKUvyC6xiZ57TlyP6NB2atPOg==",
   "success": true,
   "projectFilePath": "C:\\Users\\asena\\OneDrive\\Masaüstü\\Github\\Kamp\\FinalProject\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\asena\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\asena\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\asena\\.nuget\\packages\\microsoft.data.sqlclient\\2.0.1\\microsoft.data.sqlclient.2.0.1.nupkg.sha512",
     "C:\\Users\\asena\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.0.1\\microsoft.data.sqlclient.sni.runtime.2.0.1.nupkg.sha512",

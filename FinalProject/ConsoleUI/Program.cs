@@ -14,7 +14,7 @@ namespace ConsoleUI
 
         private static void ProductTest()
         {
-            ProductManager pm = new ProductManager(new EfProductDal());
+            ProductDal pm = new ProductDal(new EfProductDal());
             foreach (var product in pm.GetAllByCategoryId(2))
             {
                 Console.WriteLine(product.ProductName);
